@@ -1,0 +1,66 @@
+{
+  "name": "aiduxcare-gpt4o-mini",
+  "version": "1.0.0",
+  "description": "AiDuxCare GPT4O Mini - Arquitectura HYPERION para fisioterapia con IA",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "@azure/openai": "^1.0.0-beta.8",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0"
+  },
+  "keywords": [
+    "ai",
+    "healthcare",
+    "physiotherapy",
+    "rag",
+    "vector-store",
+    "supabase",
+    "azure-openai",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "AiDuxCare Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maurosg78/aiduxcare-gpt4o-mini.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maurosg78/aiduxcare-gpt4o-mini/issues"
+  },
+  "homepage": "https://github.com/Maurosg78/aiduxcare-gpt4o-mini#readme"
+}
